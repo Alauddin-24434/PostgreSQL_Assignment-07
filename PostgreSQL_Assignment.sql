@@ -105,8 +105,8 @@ GROUP BY courses.course_name;
 SELECT AVG(age) AS average_age 
 FROM students;
 
--- Query 8: Retrieve students with email containing 'example.com'
+-- Query 8: Retrieve students with email containing 'nabil@example.com'
 SELECT student_name 
 FROM students 
-WHERE email LIKE '%example.com%';
+WHERE email LIKE 'nabil@example.com';
 
